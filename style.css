@@ -1,0 +1,32 @@
+.container{
+    background-color: rgb(255, 196, 252);
+    display: flex;
+    grid-gap: 200px 200px;
+    grid-template-areas:
+    "header header header"
+    "artigo artigo artigo"
+    "artigo2 artigo2 artigo2"
+
+}
+.artigo{
+    background-color: azure;
+    display: grid;
+   margin: 5px;
+   text-align: center;
+   border: 5px solid blue;
+}
+.artigo2{
+    background-color: beige;
+    grid-area: content;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid blue;
+}
+h1{
+    color:blue;
+    
+}
+h3{ 
+    background-color: blue;
+}
